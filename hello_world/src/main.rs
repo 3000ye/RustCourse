@@ -1,8 +1,6 @@
 fn main() {
-    // 不可变声明变量
-    let a = 10;
-    let b: i32 = 20;
-
-    // 可变声明变量
-    let mut c = 20;
+    let a:i32 = 10;
+    let b:f64 = 10.0;
+    
+    println!("{}", a + (b as i32));
 }
