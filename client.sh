@@ -21,6 +21,9 @@ git add .
 # 提交更改
 git commit -m "$commit_message"
 
+# 拉取最新代码
+git pull --rebase
+
 # 推送到远程仓库
 git push
 
@@ -30,3 +33,4 @@ if [ $? -eq 0 ]; then
 else
     echo "推送失败，请检查错误信息。"
 fi
+
